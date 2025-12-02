@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper title">
+        <h1 class="bold">
+            The German Tank Problem
+        </h1>
+    </div>
+
+    <div class="wrapper">
+        <button type="button" class="button" onclick="generate()">Generate</button>
+    </div>
+
+    <div class="wrapper tankCount">
+        <h2 id="total" class="bold">
+            N/A
+        </h2>
+    </div>
+
+    <div class="wrapper frequential">
+        <h2 class="bold">
+            Frequential Total:
+        </h2>
+
+        <h3 id="freq" class="total">
+            N/A
+        </h3>
+
+        <h3 class="constant absolute" id="freqConst">
+            N/A
+        </h3>
+
+        <h3 id="freqFormTop">
+            N/A
+        </h3>
+
+        <h3 id="freqFormBot"> 
+            N/A
+        </h3>
+    </div>
+
+    <div class="wrapper bayesian">
+        <h2 class="bold">
+            Bayesian Total:
+        </h2>
+
+        <h3 id="baye" class="total">
+            N/A
+        </h3>
+
+        <h3 class="constant absolute" id="bayeConst">
+            N/A
+        </h3>
+
+        <h3 id="bayeFormTop">
+            N/A
+        </h3>
+
+        <h3 id="bayeFormBot">
+            N/A
+        </h3>
+    </div>
+
+    <div class="wrapper">
+        <h2 class="bold">
+            Observed Serial Numbers:
+        </h2>
+        <h3 id="list">
+            {}
+        </h3>
+    </div>
+
+    <div class="wrapper inputs">
+        <br><br><br>
+        <button type="button" class="reset" onclick="reset()">Reset</button>
+    </div>
+    <script src="calculations.js"></script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+* {
+    text-align: center;
+    background-color: rgb(95, 95, 95);
+    font-weight: 400;
+    font-family: "Roboto";
+}
+
+.button {
+    margin: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(140, 140, 140);
+}
+
+.wrapper {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 1;
+    overflow: wrap;
+}
+
+.reset {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(140, 140, 140);
+}
+
+#freqFormTop, #bayeFormTop {
+    text-decoration: underline 0.2em rgb(0, 0, 0);
+    text-underline-offset: 0.6em;
+    z-index: 2;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.constant {
+    text-align: right;
+    left: 40%;
+}
+
+h3 {
+    width: justify;
+}
+
+.total {
+    font-weight: 600;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+input {
+    background-color: rgb(140, 140, 140);
+}
